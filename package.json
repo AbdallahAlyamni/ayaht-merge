@@ -4,11 +4,16 @@
   "private": true,
   "dependencies": {
     "audioconcat": "^0.1.4",
+    "axios": "^1.3.4",
     "crunker": "^2.1.0",
     "download": "^8.0.0",
     "minimist": "^1.2.8"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
